@@ -1,0 +1,22 @@
+.row {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.progress-bar {
+    height: 20px;
+    max-width: 500px;
+    border-radius: 2px;
+    background-color: rgb(121, 83, 157);
+    transform: scaleX(0);
+    transform-origin: left;
+}
